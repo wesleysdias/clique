@@ -33,10 +33,15 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
         
-          <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)) ?>
+          <?php wp_list_pages(array('title_li' => '', 'exclude' => 5)) ?>
           
 
         </ul>
+      <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Entrar</button>
+      </form>
       </div><!--/.nav-collapse -->
     </div>
   </div>
