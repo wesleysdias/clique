@@ -16,7 +16,7 @@ This simple theme was built using the example Bootstrap theme "Basic marketing s
 @import url('bootstrap/css/bootstrap.css'); 
 @import url('bootstrap/css/bootstrap-responsive.css'); 
 body { 
-     padding-top: 60px; 
+     padding-top: 140px; 
      padding-bottom: 40px; 
 }
 
