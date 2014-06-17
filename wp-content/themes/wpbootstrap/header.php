@@ -29,11 +29,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="<?php echo site_url(); ?>"><img src="http://cliquewebmarketing.com.br/gallery/3506b3fe3bf476201a39d9efd2432cb8_390x230.png" width="160px" alt="" style="padding-left: 40px;"></a>
+      <a class="brand" href="<?php echo site_url(); ?>"><img src="http://cliquewebmarketing.com.br/clique/imgs/logo.png" width="200px" alt="" style="padding-left: 40px;"></a>
       <div class="nav-collapse collapse">
-        <ul class="nav" style="padding-top: 89px; padding-left: 600px;">
+        <ul class="nav" style="padding-top: 50px; padding-left: 300px;">
         
-          <?php wp_list_pages(array('title_li' => '', 'exclude' => 5)) ?>
+          <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)) ?>
           
 
         </ul>
